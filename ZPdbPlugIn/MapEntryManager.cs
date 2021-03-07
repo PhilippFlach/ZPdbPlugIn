@@ -33,6 +33,7 @@ namespace ZPdbPlugIn
         public int SaveMapEntry()
         {
             _mapEntries.Add(_currentMapEntry);
+            _currentMapEntry = new MapEntry();
             return _mapEntries.Count;
         }
 

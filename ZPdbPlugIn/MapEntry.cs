@@ -32,26 +32,26 @@ namespace ZPdbPlugIn
         }
 
         internal long Id { get; set; }
-        internal int Map_id { get; set; }
+        internal int Map_id { get; set; } = 1;
         internal string Address { get; set; }
-        internal string Description { get; set; }
-        internal string Pic { get; set; }
-        internal string Link { get; set; }
-        internal string Icon { get; set; }
+        internal string Description { get; set; } = "";
+        internal string Pic { get; set; } = "";
+        internal string Link { get; set; } = "";
+        internal string Icon { get; set; } = "";
         internal double? Lat { get; set; }
         internal double? Lng { get; set; }
-        internal string Anim { get; set; }
+        internal string Anim { get; set; } = "0";
 
         internal string Title { get; set; }
-        internal int Infoopen { get; set; }
-        internal string Category { get; set; }
-        internal int Approved { get; set; }
-        internal int Retina { get; set; }
-        internal int Type { get; set; }
+        internal int Infoopen { get; set; } = 0;
+        internal string Category { get; set; } = "";
+        internal int Approved { get; set; } = 1;
+        internal int Retina { get; set; } = 1;
+        internal int Type { get; set; } = 0;
 
-        internal string Did { get; set; }
-        internal int Sticky { get; set; }
-        internal string Other_data { get; set; }
+        internal string Did { get; set; } = "";
+        internal int Sticky { get; set; } = 0;
+        internal string Other_data { get; set; } = "";
   
 
     }
