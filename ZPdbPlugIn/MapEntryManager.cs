@@ -16,7 +16,7 @@ namespace ZPdbPlugIn
     [ClassInterface(ClassInterfaceType.AutoDual)]
     public class MapEntryManager
     {
-        List<MapEntry> _mapEntries = new List<MapEntry>();
+        readonly List<MapEntry> _mapEntries = new List<MapEntry>();
 
         MapEntry _currentMapEntry;
 

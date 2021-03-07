@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZPdbPlugIn", "ZPdbPlugIn\ZPdbPlugIn.csproj", "{D705B6EA-9D02-40D6-9F89-A0F48C3C5971}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZPdbPlugInTests", "ZPdbPlugInTests\ZPdbPlugInTests.csproj", "{EBF5B6BA-34FC-487F-9F1C-7A6404B5E3D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D705B6EA-9D02-40D6-9F89-A0F48C3C5971}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D705B6EA-9D02-40D6-9F89-A0F48C3C5971}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D705B6EA-9D02-40D6-9F89-A0F48C3C5971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF5B6BA-34FC-487F-9F1C-7A6404B5E3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF5B6BA-34FC-487F-9F1C-7A6404B5E3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF5B6BA-34FC-487F-9F1C-7A6404B5E3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF5B6BA-34FC-487F-9F1C-7A6404B5E3D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
