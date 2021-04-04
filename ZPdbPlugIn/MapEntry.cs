@@ -8,7 +8,7 @@ namespace ZPdbPlugIn
         {
         }
 
-        internal MapEntry(long id, int map_id, string address, string description, string pic, string link, string icon, double? lat, double? lng, string anim, string title, int infoopen, string category, int approved, int retina, int type, string did, int sticky, string other_data)
+        internal MapEntry(long id, int map_id, string address, string description, string pic, string link, string icon, string lat, string lng, string anim, string title, int infoopen, string category, int approved, int retina, int type, string did, int sticky, string other_data)
         {
             Id = id;
             Map_id = map_id;
@@ -38,8 +38,8 @@ namespace ZPdbPlugIn
         public string Pic { get; set; } = "";
         public string Link { get; set; } = "";
         public string Icon { get; set; } = "";
-        public double? Lat { get; set; }
-        public double? Lng { get; set; }
+        public string Lat { get; set; }
+        public string Lng { get; set; }
         public string Anim { get; set; } = "0";
 
         public string Title { get; set; }

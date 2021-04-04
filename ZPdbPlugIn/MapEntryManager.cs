@@ -64,10 +64,10 @@ namespace ZPdbPlugIn
         public void SetLink(string link) => _currentMapEntry.Link = link;
 
         [ComVisible(true)] 
-        public void SetLat(double? lat) => _currentMapEntry.Lat = lat;
+        public void SetLat(string lat) => _currentMapEntry.Lat = lat;
 
         [ComVisible(true)]
-        public void SetLng(double? lng) => _currentMapEntry.Lng = lng;
+        public void SetLng(string lng) => _currentMapEntry.Lng = lng;
 
         [ComVisible(true)]
         public void SetTitle(string title) => _currentMapEntry.Title = title;

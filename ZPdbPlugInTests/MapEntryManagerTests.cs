@@ -24,8 +24,8 @@ namespace ZPdbPlugInTests
             sut.SetAddress("Arcas 3, 7000 Chur");
             sut.SetLink("https://www.zummetzgertor.ch/menu");
             sut.SetTitle("Zum Metzgertor");
-            sut.SetLat(46.84793681554992);
-            sut.SetLng(9.531904334802588);
+            sut.SetLat("46.84793681554992");
+            sut.SetLng("9.531904334802588");
             sut.SaveMapEntry();
 
             // 2. Map entry
@@ -34,8 +34,8 @@ namespace ZPdbPlugInTests
             sut.SetAddress("Juchs, 7013 Domat/Ems");
             sut.SetLink(null);
             sut.SetTitle("Restaurant Juchs");
-            sut.SetLat(46.82170488691142);
-            sut.SetLng(9.487039303937985);
+            sut.SetLat("46.82170488691142");
+            sut.SetLng("9.487039303937985");
             sut.SaveMapEntry();
 
 
